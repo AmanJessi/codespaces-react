@@ -1,70 +1,376 @@
-# GitHub Codespaces ♥️ React
+# 🛒 Tiendita React ❤️
 
-Welcome to your shiny new Codespace running React! We've got everything fired up and running for you to explore React.
+Proyecto de una tienda online simple creada con **React + Vite**.
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with the what you're seeing right now - where you go from here is up to you!
+---
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+# 🚀 Instalación y Ejecución
 
-This project was bootstrapped for you with [Vite](https://vitejs.dev/).
+## 📋 Requisitos
 
-## Available Scripts
+Necesitas tener instalado:
 
-In the project directory, you can run:
+- Git
+- Node.js (versión 18 o superior)
 
-### `npm start`
+---
 
-We've already run this for you in the `Codespaces: server` terminal window below. If you need to stop the server for any reason you can just run `npm start` again to bring it back online.
+# 📥 PASO 1: Clonar el Proyecto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000/](http://localhost:3000/) in the built-in Simple Browser (`Cmd/Ctrl + Shift + P > Simple Browser: Show`) to view your running application.
+Abre una terminal y ejecuta:
 
-The page will reload automatically when you make changes.\
-You may also see any lint errors in the console.
+```bash
+git clone https://github.com/tuusuario/tu-repositorio.git
+```
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 📂 PASO 2: Entrar a la Carpeta
 
-### `npm run build`
+```bash
+cd codespaces-react
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# 📦 PASO 3: Instalar Dependencias
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm install
+```
 
-## Learn More
+---
 
-You can learn more in the [Vite documentation](https://vitejs.dev/guide/).
+# ▶️ PASO 4: Ejecutar el Proyecto
 
-To learn Vitest, a Vite-native testing framework, go to [Vitest documentation](https://vitest.dev/guide/)
+```bash
+npm run dev
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+# 🌐 PASO 5: Abrir en el Navegador
 
-This section has moved here: [https://sambitsahoo.com/blog/vite-code-splitting-that-works.html](https://sambitsahoo.com/blog/vite-code-splitting-that-works.html)
+Abre:
 
-### Analyzing the Bundle Size
+```text
+http://localhost:3000
+```
 
-This section has moved here: [https://github.com/btd/rollup-plugin-visualizer#rollup-plugin-visualizer](https://github.com/btd/rollup-plugin-visualizer#rollup-plugin-visualizer)
+---
 
-### Making a Progressive Web App
+# 🪟 Instalación en Windows
 
-This section has moved here: [https://dev.to/hamdankhan364/simplifying-progressive-web-app-pwa-development-with-vite-a-beginners-guide-38cf](https://dev.to/hamdankhan364/simplifying-progressive-web-app-pwa-development-with-vite-a-beginners-guide-38cf)
+## 1. Instalar Node.js
 
-### Advanced Configuration
+Descarga e instala Node.js desde:
 
-This section has moved here: [https://vitejs.dev/guide/build.html#advanced-base-options](https://vitejs.dev/guide/build.html#advanced-base-options)
+https://nodejs.org
 
-### Deployment
+---
 
-This section has moved here: [https://vitejs.dev/guide/build.html](https://vitejs.dev/guide/build.html)
+## 2. Instalar Git
 
-### Troubleshooting
+Descarga Git desde:
 
-This section has moved here: [https://vitejs.dev/guide/troubleshooting.html](https://vitejs.dev/guide/troubleshooting.html)
+https://git-scm.com
+
+---
+
+## 3. Abrir CMD o PowerShell
+
+Ejecutar:
+
+```bash
+git clone https://github.com/tuusuario/tu-repositorio.git
+cd codespaces-react
+npm install
+npm run dev
+```
+
+---
+
+# 🐧 Instalación en Linux
+
+## Ubuntu / Debian
+
+### Instalar Node.js y Git
+
+```bash
+sudo apt update
+sudo apt install nodejs npm git -y
+```
+
+### Clonar proyecto
+
+```bash
+git clone https://github.com/tuusuario/tu-repositorio.git
+```
+
+### Entrar a la carpeta
+
+```bash
+cd codespaces-react
+```
+
+### Instalar dependencias
+
+```bash
+npm install
+```
+
+### Ejecutar
+
+```bash
+npm run dev
+```
+
+---
+
+# 🍎 Instalación en MacOS
+
+## Instalar Homebrew
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+---
+
+## Instalar Node.js y Git
+
+```bash
+brew install node git
+```
+
+---
+
+## Clonar proyecto
+
+```bash
+git clone https://github.com/tuusuario/tu-repositorio.git
+```
+
+---
+
+## Entrar a la carpeta
+
+```bash
+cd codespaces-react
+```
+
+---
+
+## Instalar dependencias
+
+```bash
+npm install
+```
+
+---
+
+## Ejecutar
+
+```bash
+npm run dev
+```
+
+---
+
+# 🤖 Instalación en Android (Termux)
+
+## 1. Actualizar paquetes
+
+```bash
+pkg update && pkg upgrade -y
+```
+
+---
+
+## 2. Instalar Node.js y Git
+
+```bash
+pkg install nodejs git -y
+```
+
+---
+
+## 3. Ir a Descargas
+
+```bash
+cd storage/downloads
+```
+
+---
+
+## 4. Clonar el repositorio
+
+```bash
+git clone https://github.com/tuusuario/tu-repositorio.git
+```
+
+---
+
+## 5. Entrar a la carpeta
+
+```bash
+cd codespaces-react
+```
+
+---
+
+## 6. Instalar dependencias
+
+```bash
+npm install
+```
+
+---
+
+## 7. Ejecutar proyecto
+
+```bash
+npm run dev
+```
+
+---
+
+# 📋 Comandos Disponibles
+
+## Ejecutar en desarrollo
+
+```bash
+npm run dev
+```
+
+---
+
+## Crear build de producción
+
+```bash
+npm run build
+```
+
+---
+
+## Previsualizar build
+
+```bash
+npm run preview
+```
+
+---
+
+# 📁 Estructura del Proyecto
+
+```text
+src/
+├── App.jsx
+├── Tiendita/
+│   ├── Header.jsx
+│   ├── Productos.jsx
+│   └── Productos.css
+├── App.css
+└── main.jsx
+```
+
+---
+
+# 🛠️ Tecnologías
+
+- React
+- Vite
+- CSS
+- JavaScript
+
+---
+
+# ❓ Problemas Comunes
+
+## 🔴 Error: Missing script: dev
+
+Revisa que tu `package.json` tenga:
+
+```json
+"scripts": {
+  "dev": "vite"
+}
+```
+
+---
+
+## 🔴 Error: npm no reconocido
+
+Verifica instalación:
+
+```bash
+node -v
+npm -v
+```
+
+---
+
+## 🔴 No carga localhost
+
+Asegúrate de que:
+
+```bash
+npm run dev
+```
+
+esté ejecutándose.
+
+---
+
+## 🔴 Error de módulos
+
+Eliminar `node_modules` y reinstalar:
+
+### Linux / Mac
+
+```bash
+rm -rf node_modules
+npm install
+```
+
+### Windows
+
+```bash
+rmdir /s node_modules
+npm install
+```
+
+---
+
+# ✅ Resultado Esperado
+
+Después de ejecutar:
+
+```bash
+npm run dev
+```
+
+verás algo parecido a:
+
+```bash
+VITE ready in 500ms
+
+➜ Local: http://localhost:3000/
+```
+
+---
+
+# 🎉 Listo
+
+Tu tienda React ya está funcionando correctamente.
+
+Ahora puedes:
+
+- Agregar productos
+- Editar estilos
+- Crear componentes
+- Mejorar el diseño
+- Agregar carrito de compras
+- Conectar APIs
+
+---
