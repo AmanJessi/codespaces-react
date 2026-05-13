@@ -63,17 +63,21 @@ http://localhost:3000
 
 ## 1. Instalar Node.js
 
-Descarga e instala Node.js desde:
+Descargar desde:
 
+```text
 https://nodejs.org
+```
 
 ---
 
 ## 2. Instalar Git
 
-Descarga Git desde:
+Descargar desde:
 
+```text
 https://git-scm.com
+```
 
 ---
 
@@ -84,6 +88,18 @@ Ejecutar:
 ```bash
 git clone https://github.com/tuusuario/tu-repositorio.git
 cd codespaces-react
+npm install
+npm run dev
+```
+
+---
+
+## 🔧 Si aparecen errores
+
+```bash
+rmdir /s node_modules
+del package-lock.json
+npm cache clean --force
 npm install
 npm run dev
 ```
@@ -101,11 +117,15 @@ sudo apt update
 sudo apt install nodejs npm git -y
 ```
 
+---
+
 ### Clonar proyecto
 
 ```bash
 git clone https://github.com/tuusuario/tu-repositorio.git
 ```
+
+---
 
 ### Entrar a la carpeta
 
@@ -113,15 +133,30 @@ git clone https://github.com/tuusuario/tu-repositorio.git
 cd codespaces-react
 ```
 
+---
+
 ### Instalar dependencias
 
 ```bash
 npm install
 ```
 
+---
+
 ### Ejecutar
 
 ```bash
+npm run dev
+```
+
+---
+
+## 🔧 Si aparecen errores
+
+```bash
+rm -rf node_modules package-lock.json
+npm cache clean --force
+npm install
 npm run dev
 ```
 
@@ -177,6 +212,17 @@ npm run dev
 
 ---
 
+## 🔧 Si aparecen errores
+
+```bash
+rm -rf node_modules package-lock.json
+npm cache clean --force
+npm install
+npm run dev
+```
+
+---
+
 # 🤖 Instalación en Android (Termux)
 
 ## 1. Actualizar paquetes
@@ -203,7 +249,7 @@ git clone https://github.com/tuusuario/tu-repositorio.git
 
 ---
 
-## 4. Entrar a la carpeta
+## 4. Entrar a la carpeta del proyecto
 
 ```bash
 cd codespaces-react
@@ -219,9 +265,20 @@ npm install
 
 ---
 
-## 6. Ejecutar proyecto
+## 6. Ejecutar el proyecto
 
 ```bash
+npm run dev
+```
+
+---
+
+## 🔧 Si aparecen errores
+
+```bash
+rm -rf node_modules package-lock.json
+npm cache clean --force
+npm install
 npm run dev
 ```
 
@@ -249,6 +306,14 @@ npm run build
 
 ```bash
 npm run preview
+```
+
+---
+
+## Instalar dependencias
+
+```bash
+npm install
 ```
 
 ---
@@ -316,20 +381,25 @@ esté ejecutándose.
 
 ## 🔴 Error de módulos
 
-Eliminar `node_modules` y reinstalar:
-
-### Linux / Mac
+### Linux / Mac / Termux
 
 ```bash
-rm -rf node_modules
+rm -rf node_modules package-lock.json
+npm cache clean --force
 npm install
+npm run dev
 ```
+
+---
 
 ### Windows
 
 ```bash
 rmdir /s node_modules
+del package-lock.json
+npm cache clean --force
 npm install
+npm run dev
 ```
 
 ---
