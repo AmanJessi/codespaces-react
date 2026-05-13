@@ -278,6 +278,7 @@ npm run dev
 ```bash
 rm -rf node_modules package-lock.json
 npm cache clean --force
+ctrl+z
 npm install
 npm run dev
 ```
