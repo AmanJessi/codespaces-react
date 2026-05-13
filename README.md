@@ -195,15 +195,7 @@ pkg install nodejs git -y
 
 ---
 
-## 3. Ir a Descargas
-
-```bash
-cd storage/downloads
-```
-
----
-
-## 4. Clonar el repositorio
+## 3. Clonar el repositorio
 
 ```bash
 git clone https://github.com/tuusuario/tu-repositorio.git
@@ -211,7 +203,7 @@ git clone https://github.com/tuusuario/tu-repositorio.git
 
 ---
 
-## 5. Entrar a la carpeta
+## 4. Entrar a la carpeta
 
 ```bash
 cd codespaces-react
@@ -219,7 +211,7 @@ cd codespaces-react
 
 ---
 
-## 6. Instalar dependencias
+## 5. Instalar dependencias
 
 ```bash
 npm install
@@ -227,7 +219,7 @@ npm install
 
 ---
 
-## 7. Ejecutar proyecto
+## 6. Ejecutar proyecto
 
 ```bash
 npm run dev
