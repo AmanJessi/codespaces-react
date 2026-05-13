@@ -267,7 +267,7 @@ npm install
 
 ## 6. Ejecutar el proyecto
 
-```bash
+```bash``
 npm run dev
 ```
 
@@ -277,6 +277,7 @@ npm run dev
 
 ```bash
 rm -rf node_modules package-lock.json
+rm -f src/reportWebVitals.js
 npm cache clean --force
 ctrl+z
 npm install
