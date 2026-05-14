@@ -11,17 +11,23 @@ function Productos() {
       <div className="card">
         <h3>Chompa rosa</h3>
         <p>Bs. 120</p>
-        <button onClick={() => setCarrito(carrito + 1)}>
-          Agregar
-        </button>
+        //<button onClick={() => setCarrito(carrito + 1)}>
+        //  Agregar
+        //</button>
+        <button onClick={() => setCarrito(prevCarrito => prevCarrito + 1)}>
+  Agregar
+</button>
       </div>
 
       <div className="card">
         <h3>Pulsera tejida</h3>
         <p>Bs. 25</p>
-        <button onClick={() => setCarrito(carrito + 1)}>
-          Agregar
-        </button>
+       //<button onClick={() => setCarrito(carrito + 1)}>
+       //Agregar
+       // </button>
+         <button onClick={() => setCarrito(prevCarrito => prevCarrito + 1)}>
+  Agregar
+</button>
       </div>
 
       <h3>Carrito: {carrito}</h3>
