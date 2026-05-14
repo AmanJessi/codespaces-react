@@ -1,13 +1,8 @@
-import { useState } from 'react'; // 'import' con minúscula
+Import { useState } from 'react';
 import './Productos.css';
 
 function Productos() {
   const [carrito, setCarrito] = useState(0);
-
-  // Función genérica para evitar repetir código
-  const agregarAlCarrito = () => {
-    setCarrito(prev => prev + 1);
-  };
 
   return (
     <div className="container">
@@ -16,7 +11,7 @@ function Productos() {
       <div className="card">
         <h3>Chompa rosa</h3>
         <p>Bs. 120</p>
-        <button onClick={agregarAlCarrito}>
+        <button onClick={() => setCarrito(carrito + 1)}>
           Agregar
         </button>
       </div>
@@ -24,13 +19,12 @@ function Productos() {
       <div className="card">
         <h3>Pulsera tejida</h3>
         <p>Bs. 25</p>
-        <button onClick={agregarAlCarrito}>
+        <button onClick={() => setCarrito(carrito + 1)}>
           Agregar
         </button>
       </div>
 
-      <hr />
-      <h3>Items en el carrito: {carrito}</h3>
+      <h3>Carrito: {carrito}</h3>
     </div>
   );
 }
