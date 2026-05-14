@@ -1,4 +1,4 @@
-Import { useState } from 'react';
+import { useState } from 'react';
 import './Productos.css';
 
 function Productos() {
